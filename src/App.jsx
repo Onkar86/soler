@@ -5,8 +5,8 @@ import Hero from './components/Hero';
 import ContactButtons from './components/ContactButtons';
 import Services from './components/Services';
 import Downloads from './components/Downloads';
-// import Footer from './components/Footer';
-// import AIChatBot from './components/AIChatBot';
+import Footer from './components/Footer';
+import AIChatBot from './components/AIChatBot';
 
 function App() {
   const { language, toggleLanguage } = useLanguage();
